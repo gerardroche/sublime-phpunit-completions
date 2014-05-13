@@ -1,7 +1,7 @@
 Sublime PHPUnit Completions Kit
 ===============================
 
-Provides PHPUnit completions for [Sublime Text](http://www.sublimetext.com).
+Provides [PHPUnit](http://phpunit.de) completions for [Sublime Text](http://www.sublimetext.com).
 
 > Auto complete shows the completion popup as you type, so you can fill in long
 > words by typing only a few characters. &mdash; [Sublime Text Auto-Complete Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
