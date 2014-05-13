@@ -4,12 +4,29 @@ Sublime PHPUnit Completions Kit
 Provides [PHPUnit](http://phpunit.de) completions for [Sublime Text](http://www.sublimetext.com).
 
 > Auto complete shows the completion popup as you type, so you can fill in long
-> words by typing only a few characters. &mdash; [Sublime Text Auto-Complete Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
+> words by typing only a few characters. &mdash; [Sublime Text auto-complete doc.](http://www.sublimetext.com/docs/3/auto_complete.html)
 
 Usage
 -----
 
-See [Sublime PHP Completions Kit](https://github.com/gerardroche/sublime-phpck#usage--features).
+`assertEquals`<kbd>TAB</kbd>
+
+                      vvvvvvvvv
+    $this->assertTrue(condition, message = '')
+
+`$this->assertEquals`<kbd>TAB</kbd>
+
+                      vvvvvvvvv
+    $this->assertTrue(condition, message = '')
+
+`class ClassTest extends phpunit`<kbd>ALT</kbd>+<kbd>/</kbd>
+
+Provides types hints:
+
+    PHPUnit_Framework_TestCase
+    PHPUnit_Extensions_Database_TestCase
+
+See [Sublime PHP Completions Kit](https://github.com/gerardroche/sublime-phpck#usage--features) for more usage details.
 
 Installation
 ------------
