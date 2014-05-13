@@ -31,14 +31,14 @@ See [Sublime PHP Completions Kit](https://github.com/gerardroche/sublime-phpck#u
 Installation
 ------------
 
-### Using [Package Control](https://sublime.wbond.net/installation)
+### [Package Control](https://sublime.wbond.net/installation)
 
 1. Open Package Control: `Preferences -> Package Control`
 2. Select `Package Control: Install Package`
 3. Type `PHP Completions Kit` into the search box and select the package to
 install it
 
-### Using [Git](http://git-scm.com)
+### [Git](http://git-scm.com)
 
 Clone directly into your Sublime Text `Packages` directory.
 
