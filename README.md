@@ -9,12 +9,12 @@ Provides [PHPUnit](http://phpunit.de) completions for [Sublime Text](http://www.
 Usage
 -----
 
-`assertEquals`<kbd>TAB</kbd>
+`assertTrue`<kbd>TAB</kbd>
 
                       vvvvvvvvv
     $this->assertTrue(condition, message = '')
 
-`$this->assertEquals`<kbd>TAB</kbd>
+`$this->assertTrue`<kbd>TAB</kbd>
 
                       vvvvvvvvv
     $this->assertTrue(condition, message = '')
