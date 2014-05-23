@@ -24,17 +24,17 @@ Usage
 > currently showing.  If it is showing, it'll select the next item.
 > &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
 
-`assertTrue` <kbd>TAB</kbd>
+`assertTrue` <kbd>tab</kbd>
 
                       vvvvvvvvv
     $this->assertTrue(condition, message = '')
 
-`$this->assertTrue` <kbd>TAB</kbd>
+`$this->assertTrue` <kbd>tab</kbd>
 
                       vvvvvvvvv
     $this->assertTrue(condition, message = '')
 
-`class name extends phpunit` <kbd>ALT</kbd>+<kbd>/</kbd> activates type hints
+`class name extends phpunit` <kbd>alt</kbd>+<kbd>/</kbd> activates type hints
 
     PHPUnit_Framework_TestCase
     PHPUnit_Extensions_Database_TestCase
