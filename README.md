@@ -12,7 +12,7 @@ methods.
 
 All completions activate *only* in valid contexts.
 
-Other Sublime Text completion kits:
+Other completion kits:
 
 * [Sublime PHP Completions Kit](https://github.com/gerardroche/sublime-phpck)
 
