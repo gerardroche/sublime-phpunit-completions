@@ -1,0 +1,39 @@
+{
+    // scopes:
+    //
+    // source.php comment.block.documentation.phpdoc
+
+    "scope": "source.php comment.block.documentation.phpdoc",
+    "completions": [
+        {"trigger":"@after\tPHPUnit","contents":"after"},
+        {"trigger":"@afterClass\tPHPUnit","contents":"afterClass"},
+        {"trigger":"@author\tPHPUnit","contents":"author ${1:name}"},
+        {"trigger":"@backupGlobals\tPHPUnit","contents":"backupGlobals ${1:enabledOrDisabled}"},
+        {"trigger":"@backupStaticAttriutes\tPHPUnit","contents":"backupStaticAttriutes ${1:enabledOrDisabled}"},
+        {"trigger":"@before\tPHPUnit","contents":"before"},
+        {"trigger":"@beforeClass\tPHPUnit","contents":"beforeClass"},
+        {"trigger":"@codeCoverageIgnore\tPHPUnit","contents":"codeCoverageIgnore"},
+        {"trigger":"@codeCoverageIgnoreEnd\tPHPUnit","contents":"codeCoverageIgnoreEnd"},
+        {"trigger":"@codeCoverageIgnoreStart\tPHPUnit","contents":"codeCoverageIgnoreStart"},
+        {"trigger":"@covers\tPHPUnit","contents":"covers ${1:ClassName::methodName}"},
+        {"trigger":"@coversDefaultClass\tPHPUnit","contents":"coversDefaultClass ${1:ClassName}"},
+        {"trigger":"@coversNothing\tPHPUnit","contents":"coversNothing"},
+        {"trigger":"@dataProvider\tPHPUnit","contents":"dataProvider ${1:methodName}"},
+        {"trigger":"@depends\tPHPUnit","contents":"depends ${1:methodName}"},
+        {"trigger":"@expectedException\tPHPUnit","contents":"expectedException ${1:className}"},
+        {"trigger":"@expectedExceptionCode\tPHPUnit","contents":"expectedExceptionCode ${1:code}"},
+        {"trigger":"@expectedExceptionMessage\tPHPUnit","contents":"expectedExceptionMessage ${1:message}"},
+        {"trigger":"@group\tPHPUnit","contents":"group ${1:name}"},
+        {"trigger":"@large\tPHPUnit","contents":"large"},
+        {"trigger":"@medium\tPHPUnit","contents":"medium"},
+        {"trigger":"@preserveGlobalState\tPHPUnit","contents":"preserveGlobalState ${1:enabledOrDisabled}"},
+        {"trigger":"@requires\tPHPUnit","contents":"requires ${1:type} ${2:version}"},
+        {"trigger":"@runsInSeparateProcess\tPHPUnit","contents":"runsInSeparateProcess"},
+        {"trigger":"@runsTestsInSeparateProcesses\tPHPUnit","contents":"runsTestsInSeparateProcesses"},
+        {"trigger":"@small\tPHPUnit","contents":"small"},
+        {"trigger":"@test\tPHPUnit","contents":"test"},
+        {"trigger":"@testdox\tPHPUnit","contents":"testdox"},
+        {"trigger":"@ticket\tPHPUnit","contents":"ticket"},
+        {"trigger":"@uses\tPHPUnit","contents":"uses ${1:ClassName}"}
+    ]
+}
