@@ -1,20 +1,20 @@
 Sublime PHPUnit Completions Kit
 ===============================
 
-Provides [PHPUnit](http://phpunit.de) completions for [Sublime Text](http://www.sublimetext.com).
+Provides [PHPUnit](http://phpunit.de) 4.2 completions for [Sublime Text](http://www.sublimetext.com)
+(includes DbUnit 1.3).
 
 > Auto complete shows the completion popup as you type, so you can fill in long
 > words by typing only a few characters. &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
 
-Completions include test-case type hints, [assertions](http://phpunit.de/manual/current/en/appendixes.assertions.htmlv),
-matchers, constraints, and other helper methods like the `getMock*`, `markTest*`
-methods.
+Completions include assertions, annotations, test-case type hints, and other
+methods like `getMock()`, `markTestIncomplete()`, `setExpectedException()`.
 
 All completions activate *only* in valid contexts.
 
 Other completion kits:
 
-* [Sublime PHP Completions Kit](https://github.com/gerardroche/sublime-phpck)
+* [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck)
 
 Usage
 -----
@@ -38,6 +38,8 @@ Usage
 
     PHPUnit_Framework_TestCase
     PHPUnit_Extensions_Database_TestCase
+
+For more details on usage see the [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck/README.md) readme.
 
 Installation
 ------------
