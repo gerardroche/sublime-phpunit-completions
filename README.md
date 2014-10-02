@@ -1,11 +1,8 @@
 Sublime PHPUnit Completions Kit
 ===============================
 
-Provides [PHPUnit](http://phpunit.de) 4.2 completions for [Sublime Text](http://www.sublimetext.com)
-(includes DbUnit 1.3).
-
-> Auto complete shows the completion popup as you type, so you can fill in long
-> words by typing only a few characters. &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
+Provides [PHPUnit](http://phpunit.de) [~4.2](http://semver.org)) completions for
+[Sublime Text](http://www.sublimetext.com).
 
 Completions include assertions, annotations, test-case type hints, and other
 methods like `getMock()`, `markTestIncomplete()`, `setExpectedException()`.
@@ -19,9 +16,13 @@ Other completion kits:
 Usage
 -----
 
+> Auto complete shows the completion popup as you type, so you can fill in long
+> words by typing only a few characters.
+>
 > Pressing <kbd>ctrl</kbd>+<kbd>space</kbd> (OSX and Windows),
 > <kbd>alt</kbd>+<kbd>/</kbd> (Linux) will show the completion popup if it's not
 > currently showing.  If it is showing, it'll select the next item.
+>
 > &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
 
 `assertTrue` <kbd>tab</kbd>
