@@ -39,7 +39,7 @@ Usage
     PHPUnit_Framework_TestCase
     PHPUnit_Extensions_Database_TestCase
 
-For more details on usage see the [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck/README.md) readme.
+For more details on usage see the [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck).
 
 Installation
 ------------
