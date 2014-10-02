@@ -7,6 +7,10 @@ Provides [PHPUnit](http://phpunit.de) [~4.2](http://semver.org)) completions for
 Completions include assertions, annotations, test-case type hints, and other
 methods like `getMock()`, `markTestIncomplete()`, `setExpectedException()`.
 
+Extensions:
+
+- DbUnit ~1.3
+
 All completions activate *only* in valid contexts.
 
 Other completion kits:
