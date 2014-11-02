@@ -29,17 +29,17 @@ Usage
 >
 > &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
 
-`assertTrue` <kbd>tab</kbd>
+`assertTrue|` <kbd>tab</kbd>
 
                       vvvvvvvvv
     $this->assertTrue(condition, message = '')
 
-`$this->assertTrue` <kbd>tab</kbd>
+`$this->assertTrue|` <kbd>tab</kbd>
 
                       vvvvvvvvv
     $this->assertTrue(condition, message = '')
 
-`class name extends phpunit` <kbd>alt</kbd>+<kbd>/</kbd> activates type hints
+`class name extends phpunit|` <kbd>alt</kbd>+<kbd>/</kbd> activates type hints
 
     PHPUnit_Framework_TestCase
     PHPUnit_Extensions_Database_TestCase
