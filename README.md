@@ -58,12 +58,12 @@ install it
 
 ### [Git](http://git-scm.com)
 
-Clone directly into your Sublime Text `Packages` directory.  *Locate your
+Clone directly into the Sublime Text `Packages` directory.  *Locate the
 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.*
 
 ### [Manual](http://www.sublimetext.com/docs/3/packages.html)
 
 1. [Download a release](https://github.com/gerardroche/sublime-phpunitck/releases)
-2. Unzip and copy it to your Sublime Text `Packages` directory.  *Locate your
+2. Unzip and copy it to the Sublime Text `Packages` directory.  *Locate the
 `Packages` directory by using the menu item
 `Preferences -> Browse Packages...`.*
