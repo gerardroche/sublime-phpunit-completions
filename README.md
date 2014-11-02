@@ -49,13 +49,6 @@ For more details on usage see the [PHP Completions Kit](https://github.com/gerar
 Installation
 ------------
 
-### [Package Control](https://sublime.wbond.net/installation)
-
-1. Open Package Control: `Preferences -> Package Control`
-2. Select `Package Control: Install Package`
-3. Type `PHPUnit Completions Kit` into the search box and select the package to
-install it
-
 ### [Git](http://git-scm.com)
 
 Clone directly into the Sublime Text `Packages` directory.  *Locate the
