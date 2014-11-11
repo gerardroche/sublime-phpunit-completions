@@ -13,9 +13,11 @@ Extensions:
 
 All completions activate *only* in valid contexts.
 
-Other completion kits:
+Other PHP packages:
 
-* [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck)
+* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
+* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
 
 Usage
 -----
@@ -52,7 +54,8 @@ Installation
 ### [Git](http://git-scm.com)
 
 Clone directly into the Sublime Text `Packages` directory.  *Locate the
-`Packages` directory by using the menu item `Preferences -> Browse Packages...`.*
+`Packages` directory by using the menu item
+`Preferences -> Browse Packages...`.*
 
 ### [Manual](http://www.sublimetext.com/docs/3/packages.html)
 
