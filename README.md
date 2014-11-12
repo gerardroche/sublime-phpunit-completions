@@ -11,13 +11,14 @@ Extensions:
 
 - DbUnit ~1.3
 
-All completions activate *only* in valid contexts.
-
-Other PHP packages:
+Other PHP packages
+------------------
 
 * [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
-* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
 * [PHP Completions](https://github.com/gerardroche/sublime-phpck)
+* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
+* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
+* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
 Usage
 -----
