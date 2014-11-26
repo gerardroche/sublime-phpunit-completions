@@ -147,6 +147,7 @@
         {"trigger":"identicalTo()\tPHPUnit","contents":"\\$this->identicalTo(${1:value})"},
         {"trigger":"isEmpty()\tPHPUnit","contents":"\\$this->isEmpty()"},
         {"trigger":"isFalse()\tPHPUnit","contents":"\\$this->isFalse()"},
+        {"trigger":"isInIsolation()\tPHPUnit","contents":"\\$this->isInIsolation()"},
         {"trigger":"isInstanceOf()\tPHPUnit","contents":"\\$this->isInstanceOf(${1:className})"},
         {"trigger":"isJson()\tPHPUnit","contents":"\\$this->isJson()"},
         {"trigger":"isNull()\tPHPUnit","contents":"\\$this->isNull()"},

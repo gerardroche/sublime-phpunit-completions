@@ -1,7 +1,7 @@
 Sublime PHPUnit Completions Kit
 ===============================
 
-Provides [PHPUnit](http://phpunit.de) [~4.2](http://semver.org)) completions for
+Provides [PHPUnit](http://phpunit.de) [~4.3](http://semver.org)) completions for
 [Sublime Text](http://www.sublimetext.com).
 
 Completions include assertions, annotations, test-case type hints, and other
@@ -11,14 +11,10 @@ Extensions:
 
 - DbUnit ~1.3
 
-Other PHP packages
-------------------
+Changelog
+---------
 
-* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
-* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
-* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
-* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
-* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
+See [CHANGELOG.md](CHANGELOG.md).
 
 Usage
 -----
@@ -48,6 +44,15 @@ Usage
     PHPUnit_Extensions_Database_TestCase
 
 For more details on usage see the [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck).
+
+Other PHP packages
+------------------
+
+* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
+* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
+* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
+* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
 Installation
 ------------
