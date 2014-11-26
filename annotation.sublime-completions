@@ -23,6 +23,7 @@
         {"trigger":"@expectedException\tPHPUnit","contents":"expectedException ${1:className}"},
         {"trigger":"@expectedExceptionCode\tPHPUnit","contents":"expectedExceptionCode ${1:code}"},
         {"trigger":"@expectedExceptionMessage\tPHPUnit","contents":"expectedExceptionMessage ${1:message}"},
+        {"trigger":"@expectedExceptionMessageRegExp\tPHPUnit","contents":"expectedExceptionMessageRegExp ${1:expression}"},
         {"trigger":"@group\tPHPUnit","contents":"group ${1:name}"},
         {"trigger":"@large\tPHPUnit","contents":"large"},
         {"trigger":"@medium\tPHPUnit","contents":"medium"},
