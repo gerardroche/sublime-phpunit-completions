@@ -1,10 +1,15 @@
 CHANGELOG
 =========
 
+0.2.2
+-----
+
+* Fixed: 5282d19 Annotations can now be triggered without having to type the @ symbol
+
 0.2.1
 -----
 
-- Fixed Functions should not trigger in a comment context 9552886825e776826577e4afeedd5fcfafeae2e9
+* Fixed: 9552886 Functions are no longer triggered in a comment context
 
 0.2.0
 -----

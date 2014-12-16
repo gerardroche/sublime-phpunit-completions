@@ -14,7 +14,7 @@ Extensions:
 Changelog
 ---------
 
-See [CHANGELOG.md](CHANGELOG.md).
+See [CHANGELOG](CHANGELOG.md).
 
 Usage
 -----
@@ -30,13 +30,11 @@ Usage
 
 `assertTrue|` <kbd>tab</kbd>
 
-                      vvvvvvvvv
-    $this->assertTrue(condition, message = '')
+    $this->assertTrue(|condition|, message = '')
 
 `$this->assertTrue|` <kbd>tab</kbd>
 
-                      vvvvvvvvv
-    $this->assertTrue(condition, message = '')
+    $this->assertTrue(|condition|, message = '')
 
 `class name extends phpunit|` <kbd>alt</kbd>+<kbd>/</kbd> activates type hints
 
