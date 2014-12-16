@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.2.1
+-----
+
+- Fixed Functions should not trigger in a comment context 9552886825e776826577e4afeedd5fcfafeae2e9
+
 0.2.0
 -----
 
