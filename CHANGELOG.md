@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+0.4.0
+-----
+
+* Fixed: 8b1369f Completions shouldn't trigger in a class constant context e.g. self::|
+* Fixed: 9e641cf Completions shouldn't trigger in a declaration context e.g. class a|
+
 0.3.0
 -----
 
