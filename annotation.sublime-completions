@@ -9,7 +9,7 @@
         "@afterClass",
         {"trigger":"@author","contents":"@author ${1:name}"},
         {"trigger":"@backupGlobals","contents":"@backupGlobals ${1:enabledOrDisabled}"},
-        {"trigger":"@backupStaticAttriutes","contents":"@backupStaticAttriutes ${1:enabledOrDisabled}"},
+        {"trigger":"@backupStaticAttributes","contents":"@backupStaticAttributes ${1:enabledOrDisabled}"},
         "@before",
         "@beforeClass",
         "@codeCoverageIgnore",
