@@ -1,7 +1,7 @@
 Sublime PHPUnit Completions Kit
 ===============================
 
-Provides [PHPUnit](http://phpunit.de) [~4.3](http://semver.org)) completions for
+Provides [PHPUnit](http://phpunit.de) [~4.4](http://semver.org)) completions for
 [Sublime Text](http://www.sublimetext.com).
 
 Completions include assertions, annotations, test-case type hints, and other
@@ -11,13 +11,11 @@ Extensions:
 
 - DbUnit ~1.3
 
-Changelog
----------
+## Changelog
 
 See [CHANGELOG](CHANGELOG.md).
 
-Usage
------
+## Usage
 
 > Auto complete shows the completion popup as you type, so you can fill in long
 > words by typing only a few characters.
@@ -43,8 +41,7 @@ Usage
 
 For more details on usage see the [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck).
 
-Other PHP packages
-------------------
+## Other PHP packages
 
 * [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
 * [PHP Completions](https://github.com/gerardroche/sublime-phpck)
@@ -52,8 +49,7 @@ Other PHP packages
 * [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
 * [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
-Installation
-------------
+## Installation
 
 ### [Git](http://git-scm.com)
 
