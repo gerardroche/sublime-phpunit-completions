@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+0.4.1
+-----
+
+c55e616 (alister-patch-1) Spelling fix Thanks @alister https://github.com/gerardroche/sublime-phpunitck/pull/1
+
 0.4.0
 -----
 
