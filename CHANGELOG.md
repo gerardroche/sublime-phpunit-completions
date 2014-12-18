@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+0.3.0
+-----
+
+* Updated: b429b9a PHPUnit 4.4.0
+
+  * Added `assertArraySubset` method
+
 0.2.2
 -----
 
