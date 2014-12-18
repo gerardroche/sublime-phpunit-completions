@@ -11,6 +11,7 @@
         {"trigger":"arrayHasKey()\tPHPUnit","contents":"arrayHasKey(${1:key})"},
         {"trigger":"assertArrayHasKey()\tPHPUnit","contents":"assertArrayHasKey(${1:key}, ${2:array}${3:, ${4:message = ''}})"},
         {"trigger":"assertArrayNotHasKey()\tPHPUnit","contents":"assertArrayNotHasKey(${1:key}, ${2:array}${3:, ${4:message = ''}})"},
+        {"trigger":"assertArraySubset()\tPHPUnit","contents":"assertArraySubset(${1:subset}, ${2:array}${3:, ${4:strict = false}${5:, ${6:message = ''}}})"},
         {"trigger":"assertAttributeContains()\tPHPUnit","contents":"assertAttributeContains(${1:needle}, ${2:haystackAttributeName}, ${3:haystackClassOrObject}${4:, ${5:message = ''}${6:, ${7:ignoreCase = false}${8:, ${9:checkForObjectIdentity = true}${10:, ${11:checkForNonObjectIdentity = false}}}}})"},
         {"trigger":"assertAttributeContainsOnly()\tPHPUnit","contents":"assertAttributeContainsOnly(${1:type}, ${2:haystackAttributeName}, ${3:haystackClassOrObject}${4:, ${5:isNativeType = null}${6:, ${7:message = ''}}})"},
         {"trigger":"assertAttributeCount()\tPHPUnit","contents":"assertAttributeCount(${1:expectedCount}, ${2:haystackAttributeName}, ${3:haystackClassOrObject}${4:, ${5:message = ''}})"},

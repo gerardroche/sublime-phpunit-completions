@@ -1,7 +1,7 @@
 Sublime PHPUnit Completions Kit
 ===============================
 
-Provides [PHPUnit](http://phpunit.de) [~4.3](http://semver.org)) completions for
+Provides [PHPUnit](http://phpunit.de) [~4.4](http://semver.org)) completions for
 [Sublime Text](http://www.sublimetext.com).
 
 Completions include assertions, annotations, test-case type hints, and other
