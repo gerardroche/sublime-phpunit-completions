@@ -1,9 +1,9 @@
 {
     // scopes:
     //
-    // source.php - variable.other - meta.function.arguments - support.class - entity.other.inherited-class - meta.use - meta.catch - comment - string
+    // source.php - constant.other.class - variable.other - meta.function.arguments - support.class - entity - meta.use - meta.catch - comment - string
 
-    "scope": "source.php - variable.other - meta.function.arguments - support.class - entity.other.inherited-class - meta.use - meta.catch - comment - string",
+    "scope": "source.php - constant.other.class - variable.other - meta.function.arguments - support.class - entity - meta.use - meta.catch - comment - string",
     "completions": [
         {"trigger":"any()\tPHPUnit","contents":"\\$this->any()"},
         {"trigger":"anything()\tPHPUnit","contents":"\\$this->anything()"},
