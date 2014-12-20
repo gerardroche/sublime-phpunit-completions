@@ -1,65 +1,88 @@
-Sublime PHPUnit Completions Kit
-===============================
+# phpunit-completions
 
-Provides [PHPUnit](http://phpunit.de) [~4.4](http://semver.org)) completions for
-[Sublime Text](http://www.sublimetext.com).
+phpunit-completions plugin for Sublime Text. Provides decent PHPUnit completions.
 
-Completions include assertions, annotations, test-case type hints, and other
-methods like `getMock()`, `markTestIncomplete()`, `setExpectedException()`.
+## Overview
 
-Extensions:
+* [Features](#features)
+* [Key Bindings](#key-bindings)
+* [Installation](#installation)
+* [Similar Plugins](#similar-plugins)
+* [Contributing](#contributing)
+* [Changelog](#changelog)
+* [Complementary Plugins](#complementary-plugins)
+* [License](#license)
 
-- DbUnit ~1.3
+# Features
 
-## Changelog
+* PHPUnit [~4.4][semver]
+* DbUnit [~1.3][semver]
+* [PSR][php-fig] compliant
+* Scoped to minimise auto-complete noise
+* Test case type hints e.g. begin typing at `class Name extends |` and any other context where a type hint is valid.
+* [Assertions][phpunit-assertions-appendix] e.g. begin typing `assert|` or `$this->assert|`
+* Test case helpers e.g. begin typing `getMockBuilder|` or `$this->getMockBuilder|`
+* [Annotations][phpunit-annotations-appendix] e.g. begin typing _(any valid doc block scope)_ `/* @covers| */` or without the `@` symbol `/* covers| */`
 
-See [CHANGELOG](CHANGELOG.md).
+## Key Bindings
 
-## Usage
+| OS X | Windows | Linux | Description |
+|------|---------|-------|-------------|
+| <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions |
 
-> Auto complete shows the completion popup as you type, so you can fill in long
-> words by typing only a few characters.
->
-> Pressing <kbd>ctrl</kbd>+<kbd>space</kbd> (OSX and Windows),
-> <kbd>alt</kbd>+<kbd>/</kbd> (Linux) will show the completion popup if it's not
-> currently showing.  If it is showing, it'll select the next item.
->
-> &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
-
-`assertTrue|` <kbd>tab</kbd>
-
-    $this->assertTrue(|condition|, message = '')
-
-`$this->assertTrue|` <kbd>tab</kbd>
-
-    $this->assertTrue(|condition|, message = '')
-
-`class name extends phpunit|` <kbd>alt</kbd>+<kbd>/</kbd> activates type hints
-
-    PHPUnit_Framework_TestCase
-    PHPUnit_Extensions_Database_TestCase
-
-For more details on usage see the [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck).
-
-## Other PHP packages
-
-* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
-* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
-* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
-* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
-* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
+To enable [tab-completions][tab-completed-completions] set `"tab_completion": true` in `Preferences > Settings - User`.
 
 ## Installation
 
-### [Git](http://git-scm.com)
+### Manual installation
 
-Clone directly into the Sublime Text `Packages` directory.  *Locate the
-`Packages` directory by using the menu item
-`Preferences -> Browse Packages...`.*
+1. Download or clone this repository to a directory "phpunit-completions" in the Sublime Text Packages directory for your platform:
+    * Sublime Text 3
+        - Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-3/Packages/phpunit-completions`
+        - OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/phpunit-completions`
+        - Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 3/Packages/phpunit-completions`
+    * Sublime Text 2
+        - Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-2/Packages/phpunit-completions`
+        - OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/phpunit-completions`
+        - Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 2/Packages/phpunit-completions`
+2. Restart Sublime Text to complete installation. The features listed above should now be available.
 
-### [Manual](http://www.sublimetext.com/docs/3/packages.html)
+## Similar Plugins
 
-1. [Download a release](https://github.com/gerardroche/sublime-phpunitck/releases)
-2. Unzip and copy it to the Sublime Text `Packages` directory.  *Locate the
-`Packages` directory by using the menu item
-`Preferences -> Browse Packages...`.*
+TODO: Similar Plugins
+
+## Contributing
+
+Issue reports and pull requests are always welcome.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
+
+## Complementary Plugins
+
+* [php-completions]
+* [php-grammar]
+* [php-snippets]
+* [phpunit-completions]
+* [phpunit-snippets]
+* [phpunit]
+
+## License
+
+phpunit-completions is released under the [BSD 3-Clause License][license].
+
+[documentation]: DOCUMENTATION.md
+[license]: LICENSE
+[Package Control]: https://packagecontrol.io
+[php-completions]: https://github.com/gerardroche/sublime-phpck
+[php-fig]: http://www.php-fig.org
+[php-grammar]: https://github.com/gerardroche/sublime-php-grammar
+[php-snippets]: https://github.com/gerardroche/sublime-php-snippets
+[phpunit-annotations-appendix]: https://phpunit.de/manual/current/en/appendixes.annotations.html
+[phpunit-assertions-appendix]: https://phpunit.de/manual/current/en/appendixes.assertions.html
+[phpunit-completions]: https://github.com/gerardroche/sublime-phpunitck
+[phpunit-snippets]: https://github.com/gerardroche/sublime-phpunit-snippets
+[phpunit]: https://github.com/gerardroche/sublime-phpunit
+[semver]: http://semver.org
+[tab-completed-completions]: http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions
