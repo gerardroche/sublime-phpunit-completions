@@ -1,9 +1,9 @@
 {
     // scopes:
     //
-    // source.php comment.block.documentation.phpdoc
+    // source.php comment.block
 
-    "scope": "source.php comment.block.documentation.phpdoc",
+    "scope": "source.php comment.block",
     "completions": [
         "@after",
         "@afterClass",
