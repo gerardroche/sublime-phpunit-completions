@@ -1,10 +1,10 @@
 {
     // scopes:
     //
-    // source.php variable.other.property
     // source.php meta.function-call-object
+    // source.php variable.other.property
 
-    "scope": "source.php variable.other.property, source.php meta.function-call-object",
+    "scope": "source.php meta.function-call-object, source.php variable.other.property",
     "completions": [
         {"trigger":"any()\tPHPUnit","contents":"any()"},
         {"trigger":"anything()\tPHPUnit","contents":"anything()"},
