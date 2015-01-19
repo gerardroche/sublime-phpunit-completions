@@ -1,5 +1,15 @@
 # phpunit-completions
 
+## 0.6.0
+
+### New Features
+
+* Added some missing completions: `getMock`, `setExpectedExceptionFromAnnotation`, `setExpectedExceptionRegExp`, `atLeast`, `atMost`, `setUseErrorHandlerFromAnnotation`
+
+### Changes
+
+* Descriptions for DbUnit completions now says DbUnit
+
 ## 0.5.0
 
 ### New Features
