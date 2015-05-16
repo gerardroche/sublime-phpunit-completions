@@ -1,5 +1,11 @@
 # phpunit-completions
 
+## 0.7.0-dev
+
+### New Features
+
+* Update to DbUnit 1.3.2; Adds `createArrayDataSet()` method
+
 ## 0.6.0
 
 ### New Features

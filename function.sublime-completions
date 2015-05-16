@@ -132,6 +132,7 @@
         {"trigger":"containsOnly()\tPHPUnit","contents":"\\$this->containsOnly(${1:type})"},
         {"trigger":"containsOnlyInstancesOf()\tPHPUnit","contents":"\\$this->containsOnlyInstancesOf(${1:classname})"},
         {"trigger":"countOf()\tPHPUnit","contents":"\\$this->countOf(${1:count})"},
+        {"trigger":"createArrayDataSet()\tDbUnit","contents":"\\$this->createArrayDataSet(${1:(array) data})"},
         {"trigger":"createDefaultDBConnection()\tDbUnit","contents":"\\$this->createDefaultDBConnection(${1:connection}${2:, ${3:schema = ''}})"},
         {"trigger":"createFlatXMLDataSet()\tDbUnit","contents":"\\$this->createFlatXMLDataSet(${1:xmlFile})"},
         {"trigger":"createMySQLXMLDataSet()\tDbUnit","contents":"\\$this->createMySQLXMLDataSet(${1:xmlFile})"},
