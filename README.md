@@ -1,13 +1,12 @@
-# phpunit-completions
+# sublime-phpunit-completions
 
-phpunit-completions plugin for Sublime Text. Provides decent PHPUnit completions.
+sublime-phpunit-completions plugin for Sublime Text. Provides decent PHPUnit completions.
 
 ## Overview
 
 * [Features](#features)
 * [Key Bindings](#key-bindings)
 * [Installation](#installation)
-* [Similar Plugins](#similar-plugins)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
 * [Complementary Plugins](#complementary-plugins)
@@ -36,7 +35,7 @@ To enable [tab-completions][tab-completed-completions] set `"tab_completion": tr
 
 ### Manual installation
 
-1. Download or clone this repository to a directory "phpunit-completions" in the Sublime Text Packages directory for your platform:
+1. Download or clone this repository to a directory named `phpunit-completions` in the Sublime Text Packages directory for your platform:
     * Sublime Text 3
         - Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-3/Packages/phpunit-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/phpunit-completions`
@@ -46,10 +45,6 @@ To enable [tab-completions][tab-completed-completions] set `"tab_completion": tr
         - OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/phpunit-completions`
         - Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 2/Packages/phpunit-completions`
 2. Restart Sublime Text to complete installation. The features listed above should now be available.
-
-## Similar Plugins
-
-TODO: Similar Plugins
 
 ## Contributing
 
@@ -70,7 +65,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-phpunit-completions is released under the [BSD 3-Clause License][license].
+sublime-phpunit-completions is released under the [BSD 3-Clause License][license].
 
 [documentation]: DOCUMENTATION.md
 [license]: LICENSE
