@@ -2,36 +2,24 @@
 
 ## 0.7.0-dev
 
-**Features & Enhancements**
-
 * Update to DbUnit 1.3.2; Adds `createArrayDataSet()` method
 
 ## 0.6.0
 
-**Changes**
-
 * Descriptions for DbUnit completions now says DbUnit
-
-**Features & Enhancements**
-
 * Added some missing completions: `getMock`, `setExpectedExceptionFromAnnotation`, `setExpectedExceptionRegExp`, `atLeast`, `atMost`, `setUseErrorHandlerFromAnnotation`
 
 ## 0.5.0
 
-**Features & Enhancements**
-
-**Changes**
-
 * Scopes blacklists are now pretty printed
 * Scopes are now sorted
-
 * Type hints are now available in multi line comments, not just phpdocs's e.g. begin typing at `/* @var |`
 * Annotations are now available in multi line comments, not just phpdoc's e.g. `/* @annotation `
 * Minimise auto-complete noise: Functions and language constructs no longer activate in a "meta" scope e.g. typing at `class a extends |`
 
 ## 0.4.1
 
-* (alister-patch-1) Spelling fix Thanks @alister https://github.com/gerardroche/sublime-phpunitck/pull/1
+* (alister-patch-1) Spelling fix Thanks @alister #1
 
 ## 0.4.0
 
@@ -59,7 +47,7 @@
 
 ## 0.1.1
 
-* Fixed: Functions no longer trigger in a string context https://github.com/gerardroche/sublime-phpck/pull/6
+* Fixed: Functions no longer trigger in a string context gerardroche/sublime-phpck#6
 
 ## 0.1.0
 
