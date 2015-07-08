@@ -2,6 +2,7 @@
 
 ## 0.7.0-dev
 
+* Renamed repository from sublime-phpck to sublime-php-completions. To change Git remote url see https://help.github.com/articles/changing-a-remote-s-url/ 
 * Update to DbUnit 1.3.2; Adds `createArrayDataSet()` method
 
 ## 0.6.0
