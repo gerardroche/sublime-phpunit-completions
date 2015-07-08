@@ -1,0 +1,11 @@
+{
+    "name": "phpunit-completions",
+    "details": "https://github.com/gerardroche/sublime-phpunit-completions",
+    "labels": ["php", "testing", "phpunit", "completions"],
+    "releases": [
+        {
+            "sublime_text": "*",
+            "tags": true
+        }
+    ]
+}
