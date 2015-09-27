@@ -1,5 +1,5 @@
 {
-    // scopes:
+    // scope:
     //
     // source.php meta.function-call-object
     // source.php variable.other.property
@@ -121,6 +121,7 @@
         {"trigger":"containsOnly()\tPHPUnit","contents":"containsOnly(${1:type})"},
         {"trigger":"containsOnlyInstancesOf()\tPHPUnit","contents":"containsOnlyInstancesOf(${1:classname})"},
         {"trigger":"countOf()\tPHPUnit","contents":"countOf(${1:count})"},
+        {"trigger":"createArrayDataSet()\tDbUnit","contents":"createArrayDataSet(${1:(array) data})"},
         {"trigger":"createDefaultDBConnection()\tDbUnit","contents":"createDefaultDBConnection(${1:connection}${2:, ${3:schema = ''}})"},
         {"trigger":"createFlatXMLDataSet()\tDbUnit","contents":"createFlatXMLDataSet(${1:xmlFile})"},
         {"trigger":"createMySQLXMLDataSet()\tDbUnit","contents":"createMySQLXMLDataSet(${1:xmlFile})"},
