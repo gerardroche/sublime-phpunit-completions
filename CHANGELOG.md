@@ -3,6 +3,7 @@
 ## 0.8.0-dev
 
 * Added: a semicolon is now appened to all completions
+* Changed: completions now only include the required parameter fields
 
 ## 0.7.0
 
