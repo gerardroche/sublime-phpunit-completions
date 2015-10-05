@@ -1,5 +1,9 @@
 # sublime-phpunit-completions
 
+## 0.8.0-dev
+
+* Added: a semicolon is now appened to all completions
+
 ## 0.7.0
 
 * Renamed repository from sublime-phpck to sublime-php-completions. To change Git remote url see https://help.github.com/articles/changing-a-remote-s-url/
