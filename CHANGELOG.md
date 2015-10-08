@@ -1,6 +1,6 @@
 # sublime-phpunit-completions
 
-## 0.8.0-dev
+## 0.8.0
 
 * Added: a semicolon is now appened to all completions
 * Changed: completions now only include the required parameter fields
