@@ -1,5 +1,9 @@
 # gerardroche/sublime-phpunit-completions
 
+## 0.9.0-dev
+
+* Added: Package Settings Menu with README, CHANGELOG, and LICENSE links
+
 ## 0.8.0
 
 * Added: a semicolon is now appened to all completions
