@@ -1,6 +1,8 @@
 # gerardroche/sublime-phpunit-completions
 
-sublime-phpunit-completions plugin for Sublime Text. Provides decent PHPUnit completions.
+A plugin for Sublime Text.
+
+Provides decent PHPUnit completions.
 
 ## Overview
 
@@ -35,7 +37,8 @@ To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility
 
 ### Manual installation
 
-1. Download or clone this repository to a directory named `phpunit-completions` in the Sublime Text Packages directory for your platform:
+1. Close Sublime Text.
+2. Download or clone this repository to a directory named `phpunit-completions` in the Sublime Text Packages directory for your platform:
     * Sublime Text 3
         - Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-3/Packages/phpunit-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/phpunit-completions`
@@ -44,11 +47,11 @@ To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility
         - Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-2/Packages/phpunit-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/phpunit-completions`
         - Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 2/Packages/phpunit-completions`
-2. Restart Sublime Text to complete installation. The features listed above should now be available.
+3. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 ## Contributing
 
-Issue reports and pull requests are always welcome.
+Your issue reports and pull requests are always welcome.
 
 ## Changelog
 

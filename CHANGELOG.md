@@ -1,4 +1,4 @@
-# sublime-phpunit-completions
+# gerardroche/sublime-phpunit-completions
 
 ## 0.8.0
 
