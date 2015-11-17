@@ -3,6 +3,7 @@
 ## 0.9.0-dev
 
 * Added: Package Settings Menu with README, CHANGELOG, and LICENSE links
+* Added: PHPUnit_Framework_Error* class instantiable and type hint completion
 
 ## 0.8.0
 
