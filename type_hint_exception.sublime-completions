@@ -8,9 +8,9 @@
 
     "scope": "source.php comment.block, source.php meta.catch, source.php meta.class entity.other.inherited-class, source.php meta.use",
     "completions": [
-        {"trigger":"PHPUnit_Framework_Error","contents":"PHPUnit_Framework_Error"},
-        {"trigger":"PHPUnit_Framework_Error_Deprecated","contents":"PHPUnit_Framework_Error_Deprecated"},
-        {"trigger":"PHPUnit_Framework_Error_Notice","contents":"PHPUnit_Framework_Error_Notice"},
-        {"trigger":"PHPUnit_Framework_Error_Warning","contents":"PHPUnit_Framework_Error_Warning"}
+        "PHPUnit_Framework_Error",
+        "PHPUnit_Framework_Error_Deprecated",
+        "PHPUnit_Framework_Error_Notice",
+        "PHPUnit_Framework_Error_Warning"
     ]
 }
