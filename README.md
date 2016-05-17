@@ -17,7 +17,7 @@ Works best with [PHP Grammar], [PHP Completions], [PHP Snippets, [PHPUnit], and 
 
 # Features
 
-* PHPUnit [~4.4](http://semver.org)
+* PHPUnit [~4.8](http://semver.org)
 * DbUnit [~1.3](http://semver.org)
 * [PSR](http://www.php-fig.org) compliant
 * Scoped to minimise auto-complete noise
