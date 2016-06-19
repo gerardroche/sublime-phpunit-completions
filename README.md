@@ -4,7 +4,7 @@ A plugin for Sublime Text.
 
 Provides decent PHPUnit completions.
 
-Works best with [PHP Grammar], [PHP Completions], [PHP Snippets, [PHPUnit], and [PHPUnit Snippets].
+Works best with [PHP Grammar], [PHP Completions], [PHP Snippets], [PHPUnit], and [PHPUnit Snippets].
 
 ## Overview
 
@@ -60,7 +60,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-Released under the [BSD 3-Clause License][LICENSE].
+Released under the [BSD 3-Clause License](LICENSE).
 
 [PHP Grammar]: https://packagecontrol.io/packages/php-grammar
 [PHP Completions]: https://packagecontrol.io/packages/PHP%20Completions%20Kit
