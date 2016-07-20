@@ -9,7 +9,7 @@
 [![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-phpunit-completions.svg?maxAge=2592000?style=flat&label=release)](https://github.com/gerardroche/sublime-phpunit-completions/tags)
 [![Downloads](https://img.shields.io/packagecontrol/dt/phpunit-completions.svg?maxAge=2592000?style=flat)](https://packagecontrol.io/packages/phpunit-completions)
 
-PHPUnit completions.
+PHPUnit completions for Sublime Text.
 
 Works best with [PHP Grammar], [PHP Completions], [PHP Snippets], [PHPUnit], and [PHPUnit Snippets].
 
