@@ -1,4 +1,4 @@
-# gerardroche/sublime-phpunit-completions
+# phpunit-completions
 
 [![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime-phpunit-completions)
@@ -69,9 +69,11 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 Released under the [BSD 3-Clause License](LICENSE).
 
-[PHP Grammar]: https://packagecontrol.io/packages/php-grammar
-[PHP Completions]: https://packagecontrol.io/packages/PHP%20Completions%20Kit
-[PHP Snippets]: https://packagecontrol.io/packages/php-snippets
-[PHPUnit]: https://github.com/gerardroche/sublime-phpunit
-[PHPUnit Completions]: https://github.com/gerardroche/sublime-phpunit-completions
-[PHPUnit Snippets]: https://github.com/gerardroche/sublime-phpunit-snippets
+[Package Control]: https://packagecontrol.io/browse/authors/gerardroche
+[PHP Grammar]: https://packagecontrol.io/browse/authors/gerardroche
+[PHP Completions]: https://packagecontrol.io/browse/authors/gerardroche
+[PHP Snippets]: https://packagecontrol.io/browse/authors/gerardroche
+[PHPUnit]: https://packagecontrol.io/browse/authors/gerardroche
+[PHPUnit Completions]: https://packagecontrol.io/browse/authors/gerardroche
+[PHPUnit Snippets]: https://packagecontrol.io/browse/authors/gerardroche
+[Composer]: https://getcomposer.org
