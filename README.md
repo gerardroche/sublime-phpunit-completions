@@ -11,7 +11,7 @@
 
 PHPUnit completions for Sublime Text.
 
-Works best with [PHP Grammar], [PHP Completions], [PHP Snippets], [PHPUnit], and [PHPUnit Snippets].
+## Works best with [PHP Grammar], [PHP Completions], [PHP Snippets], [PHPUnit], and [PHPUnit Snippets].
 
 ## Overview
 
