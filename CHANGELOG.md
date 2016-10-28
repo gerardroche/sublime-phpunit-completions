@@ -1,5 +1,9 @@
 # gerardroche/sublime-phpunit-completions
 
+## 0.11.1
+
+* Fixed: several issues with scopes in new builds of ST
+
 ## 0.11.0
 
 * Added: cursor placeholder for methods with only one optional param
