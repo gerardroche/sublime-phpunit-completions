@@ -1,19 +1,10 @@
-# PHPUNIT COMPLETIONS
+# WHAT PHPUNIT COMPLETIONS IS
 
-[![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
-[![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime-phpunit-completions)
-[![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat)](https://raw.githubusercontent.com/gerardroche/sublime-phpunit-completions/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpunit-completions.svg?style=flat)](https://github.com/gerardroche/sublime-phpunit-completions/stargazers)
-
-[![Sublime version](https://img.shields.io/badge/sublime-v2|v3-lightgrey.svg?style=flat)](https://sublimetext.com)
-[![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-phpunit-completions.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime-phpunit-completions/tags)
-[![Downloads](https://img.shields.io/packagecontrol/dt/phpunit-completions.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/phpunit-completions)
+[![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-phpunit-completions.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-phpunit-completions/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpunit-completions.svg?style=flat-square)](https://github.com/gerardroche/sublime-phpunit-completions/stargazers) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 
 PHPUnit completions for Sublime Text.
 
-## Works best with [PHP Grammar], [PHP Completions], [PHP Snippets], [PHPUnit], and [PHPUnit Snippets].
-
-## Overview
+## OVERVIEW
 
 * [Features](#features)
 * [Key Bindings](#key-bindings)
@@ -22,18 +13,18 @@ PHPUnit completions for Sublime Text.
 * [Changelog](#changelog)
 * [License](#license)
 
-# Features
+## FEATURES
 
-* PHPUnit [~5.4](http://semver.org)
-* DbUnit [~2.0](http://semver.org)
+* PHPUnit ~5.4
+* DbUnit ~2.0
 * [PSR](http://www.php-fig.org) compliant
 * Scoped to minimise auto-complete noise
 * Test case type hints e.g. begin typing at `class Name extends |` and any other context where a type hint is valid.
-* [Assertions](https://phpunit.de/manual/current/en/appendixes.assertions.html) e.g. begin typing `assert|` or `$this->assert|`
+* Assertions e.g. begin typing `assert|` or `$this->assert|`
 * Test case helpers e.g. begin typing `getMockBuilder|` or `$this->getMockBuilder|`
-* [Annotations](https://phpunit.de/manual/current/en/appendixes.annotations.html) e.g. begin typing _(any valid doc block scope)_ `/* @covers| */` or without the `@` symbol `/* covers| */`
+* Annotations e.g. begin typing _(any valid doc block scope)_ `/* @covers| */` or without the `@` symbol `/* covers| */`
 
-## Key Bindings
+## KEY BINDINGS
 
 | OS X | Windows | Linux | Description |
 |------|---------|-------|-------------|
@@ -41,39 +32,25 @@ PHPUnit completions for Sublime Text.
 
 To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions) set `"tab_completion": true` in `Preferences > Settings - User`.
 
-## Installation
+## INSTALLATION
 
 ### Manual installation
 
 1. Close Sublime Text.
-2. Download or clone this repository to a directory named `phpunit-completions` in the Sublime Text Packages directory for your platform:
-    * Sublime Text 3
-        - Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-3/Packages/phpunit-completions`
-        - OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/phpunit-completions`
-        - Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 3/Packages/phpunit-completions`
-    * Sublime Text 2
-        - Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-2/Packages/phpunit-completions`
-        - OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/phpunit-completions`
-        - Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 2/Packages/phpunit-completions`
-3. Restart Sublime Text to complete installation. The features listed above should now be available.
+2. Download or clone this repository to a directory named **`phpunit-completions`** in the Sublime Text Packages directory for your platform:
+    * Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-3/Packages/phpunit-completions`
+    * OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/phpunit-completions`
+    * Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 3/Packages/phpunit-completions`
+3. Done!
 
-## Contributing
+## CONTRIBUTING
 
 Your issue reports and pull requests are always welcome.
 
-## Changelog
+## CHANGELOG
 
 See [CHANGELOG.md](CHANGELOG.md).
 
-## License
+## LICENSE
 
 Released under the [BSD 3-Clause License](LICENSE).
-
-[Package Control]: https://packagecontrol.io/browse/authors/gerardroche
-[PHP Grammar]: https://packagecontrol.io/browse/authors/gerardroche
-[PHP Completions]: https://packagecontrol.io/browse/authors/gerardroche
-[PHP Snippets]: https://packagecontrol.io/browse/authors/gerardroche
-[PHPUnit]: https://packagecontrol.io/browse/authors/gerardroche
-[PHPUnit Completions]: https://packagecontrol.io/browse/authors/gerardroche
-[PHPUnit Snippets]: https://packagecontrol.io/browse/authors/gerardroche
-[Composer]: https://getcomposer.org
