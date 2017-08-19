@@ -12,21 +12,21 @@
                                 "caption": "README",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/phpunit-completions/README.md"
+                                    "file": "${packages}/PHPUnitCompletions/README.md"
                                 }
                             },
                             {
                                 "caption": "CHANGELOG",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/phpunit-completions/CHANGELOG.md"
+                                    "file": "${packages}/PHPUnitCompletions/CHANGELOG.md"
                                 }
                             },
                             {
                                 "caption": "LICENSE",
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/phpunit-completions/LICENSE"
+                                    "file": "${packages}/PHPUnitCompletions/LICENSE"
                                 }
                             }
                         ]

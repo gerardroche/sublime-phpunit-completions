@@ -4,19 +4,10 @@
 
 PHPUnit completions for Sublime Text.
 
-## OVERVIEW
-
-* [Features](#features)
-* [Key Bindings](#key-bindings)
-* [Installation](#installation)
-* [Contributing](#contributing)
-* [Changelog](#changelog)
-* [License](#license)
-
 ## FEATURES
 
-* PHPUnit ~5.4
-* DbUnit ~2.0
+* PHPUnit ~6
+* DbUnit ~3.0
 * [PSR](http://www.php-fig.org) compliant
 * Scoped to minimise auto-complete noise
 * Test case type hints e.g. begin typing at `class Name extends |` and any other context where a type hint is valid.
@@ -36,20 +27,11 @@ To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility
 
 ### Manual installation
 
-1. Close Sublime Text.
-2. Download or clone this repository to a directory named **`phpunit-completions`** in the Sublime Text Packages directory for your platform:
-    * Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-3/Packages/phpunit-completions`
-    * OS X: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/phpunit-completions`
-    * Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 3/Packages/phpunit-completions`
-3. Done!
+Close Sublime Text then download or clone this repository to a directory named `PHPUnitCompletions` in the Sublime Text Packages directory for your platform:
 
-## CONTRIBUTING
-
-Your issue reports and pull requests are always welcome.
-
-## CHANGELOG
-
-See [CHANGELOG.md](CHANGELOG.md).
+* Linux: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/.config/sublime-text-3/Packages/PHPUnitCompletions`
+* OSX: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/PHPUnitCompletions`
+* Windows: `git clone https://github.com/gerardroche/sublime-phpunit-completions.git %APPDATA%\Sublime/ Text/ 3/Packages/PHPUnitCompletions`
 
 ## LICENSE
 
