@@ -204,8 +204,6 @@
         {"trigger":"expectWarningMessageMatches","contents":"expectWarningMessageMatches(${1:regularExpression});"},
         {"trigger":"fail","contents":"fail($1);"},
         {"trigger":"fileExists","contents":"fileExists();"},
-        {"trigger":"getActualOutputForAssertion","contents":"getActualOutputForAssertion();"},
-        {"trigger":"getDependencyInput","contents":"getDependencyInput();"},
         {"trigger":"getExpectedException","contents":"getExpectedException();"},
         {"trigger":"getExpectedExceptionCode","contents":"getExpectedExceptionCode();"},
         {"trigger":"getExpectedExceptionMessage","contents":"getExpectedExceptionMessage();"},

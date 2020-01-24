@@ -230,8 +230,6 @@
         {"trigger":"expectWarningMessageMatches","contents":"\\$this->expectWarningMessageMatches(${1:regularExpression});"},
         {"trigger":"fail","contents":"\\$this->fail($1);"},
         {"trigger":"fileExists","contents":"\\$this->fileExists();"},
-        {"trigger":"getActualOutputForAssertion","contents":"\\$this->getActualOutputForAssertion();"},
-        {"trigger":"getDependencyInput","contents":"\\$this->getDependencyInput();"},
         {"trigger":"getExpectedException","contents":"\\$this->getExpectedException();"},
         {"trigger":"getExpectedExceptionCode","contents":"\\$this->getExpectedExceptionCode();"},
         {"trigger":"getExpectedExceptionMessage","contents":"\\$this->getExpectedExceptionMessage();"},
