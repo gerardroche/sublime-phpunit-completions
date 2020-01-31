@@ -1,6 +1,6 @@
 # WHAT PHPUNIT COMPLETIONS IS
 
-[![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-phpunit-completions.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-phpunit-completions/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpunit-completions.svg?style=flat-square)](https://github.com/gerardroche/sublime-phpunit-completions/stargazers) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
+[![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Version](https://img.shields.io/github/tag/gerardroche/sublime-phpunit-completions.svg?style=flat-square&label=version)](https://github.com/gerardroche/sublime-phpunit-completions/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpunit-completions.svg?style=flat-square)](https://github.com/gerardroche/sublime-phpunit-completions/stargazers) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 
 PHPUnit completions for Sublime Text.
 
