@@ -35,4 +35,4 @@ Close Sublime Text then download or clone this repository to a directory named `
 
 ## LICENSE
 
-Released under the [BSD 3-Clause License](LICENSE).
+Released under the [GPL-3.0-or-later License](LICENSE).
