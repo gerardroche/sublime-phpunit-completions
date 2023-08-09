@@ -1,4 +1,4 @@
 # Build Log
 
-* PHP 8.2.7
-* PHPUnit 10.2.2
+* PHP 8.2.9
+* PHPUnit 10.3.1
